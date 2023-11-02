@@ -1,15 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './index.scss';
+import App from './app';
 import reportWebVitals from './reportWebVitals';
+import { MetaMaskProvider } from '@metamask/sdk-react';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <MetaMaskProvider debug={false} sdkOptions={{
+      checkInstallationImmediately: false,
+      dappMetadata: {
+        name: "Consensys Assessment - Lucas Yamamoto",
+        url: window.location.host,
+      }
+    }}>
+      <App />
+    </MetaMaskProvider>
   </React.StrictMode>
 );
 
