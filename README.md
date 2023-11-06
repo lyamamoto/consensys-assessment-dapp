@@ -2,7 +2,7 @@
 
 ## Hosted version
 
-Open [https://consensys-assessment.s3.amazonaws.com/index.html](https://consensys-assessment.s3.amazonaws.com/index.html)
+Open [https://lending-and-borrowing.s3.sa-east-1.amazonaws.com/index.html](https://lending-and-borrowing.s3.sa-east-1.amazonaws.com/index.html)
 
 ## Before running
 
