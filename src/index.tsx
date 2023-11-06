@@ -13,7 +13,7 @@ root.render(
     <MetaMaskProvider debug={false} sdkOptions={{
       checkInstallationImmediately: false,
       dappMetadata: {
-        name: "Consensys Assessment - Lucas Yamamoto",
+        name: "Lending & Borrowing (using NFT as collateral)",
         url: window.location.host,
       }
     }}>

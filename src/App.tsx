@@ -225,7 +225,7 @@ function App() {
 
 	return (
 		<div id="app">
-			<h1>Consensys Assessment - Lucas Yamamoto</h1>
+			<h1>Lending & Borrowing dApp - by Lucas Yamamoto</h1>
 			{account && <div>Your address: {account}</div>}
 			<div id="summary">
 				<div id="balance" className="summary-item">
